@@ -20,6 +20,8 @@
 }
 .home-banner-left {
     background-color: #222;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.5) 47%, rgba(0, 0, 0, 0.5) 99%), url('/Banner-Truck.webp');
+    background-position: center right;
 }
 .cta-box-cols {
     display: flex;
@@ -90,6 +92,12 @@
         opacity: 0;
         text-align: center;
         height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hexagon svg {
+        margin-bottom: 25px;
     }
     .elementor-editor-active .hexagon {
         opacity: 1;

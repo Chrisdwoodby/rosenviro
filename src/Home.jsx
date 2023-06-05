@@ -31,16 +31,28 @@ export default function Home() {
           <Container>
               <Row className="heagon-row">
                   <Col className="hexagon-1">
-                    <div className="hexagon slide-in-hexagon1">box1</div>
+                    <div className="hexagon slide-in-hexagon1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+                        <span>Box Title 4</span>
+                    </div>
                   </Col>
                   <Col className="hexagon-2">
-                    <div className="hexagon slide-in-hexagon1">box2</div>
+                    <div className="hexagon slide-in-hexagon1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+                        <span>Box Title 4</span>
+                    </div>
                   </Col>
                   <Col className="hexagon-3">
-                    <div className="hexagon slide-in-hexagon1">box3</div>
+                    <div className="hexagon slide-in-hexagon1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+                        <span>Box Title 4</span>
+                    </div>
                   </Col>
                   <Col className="hexagon-4">
-                    <div className="hexagon slide-in-hexagon1">box4</div>
+                    <div className="hexagon slide-in-hexagon1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+                      <span>Box Title 4</span>
+                    </div>
                   </Col>
               </Row>
           </Container>
