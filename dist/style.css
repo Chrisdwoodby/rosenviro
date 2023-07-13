@@ -1,11 +1,25 @@
+h3 {
+    font-size: 35px;
+}
 .header-bar {
     background-color: #e5e5e5;
 }
 .company-logo {
     height: 175px;
 }
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
 .nav-links-col {
     display: flex;
+}
+.phone-icon {
+    height: 45px;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
 }
 .nav-link {
     text-decoration: none;
@@ -20,8 +34,9 @@
 }
 .home-banner-left {
     background-color: #222;
-    background:linear-gradient(90deg, rgba(0, 0, 0, 0.5) 47%, rgba(0, 0, 0, 0.5) 99%), url('/Banner-Truck.webp');
-    background-position: center right;
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.5) 47%, rgba(0, 0, 0, 0.5) 99%), url('/truck2.webp');
+    background-position: center;
+    background-size: cover;
 }
 .cta-box-cols {
     display: flex;
@@ -45,11 +60,14 @@
     padding: 5px 10px;
     background-color: #2b6819;
     background-color: #bb67ff;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 120px;
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
+.banner-cta-btn:hover {
+    scale: 1.1;
 }
 .heagon-row {
     padding: 50px 0px;
@@ -214,4 +232,79 @@
         opacity: 1;
       }
     }
-    
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    .swiper-wrapper {
+        width: 220px !important;
+    }
+    .reviews-title-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+    .home-container {
+        padding: 100px 0px;
+    }
+    .reviews {
+        background-color: #6eb83b;
+    }
+    .about-container {
+        padding: 160px 0px;
+        color: #fff;
+        background-color: #6eb83b;
+        background:linear-gradient(90deg, rgba(0, 0, 0, 0.5) 47%, rgba(0, 0, 0, 0.5) 99%), url('/truck1.webp');
+        background-position: center center;
+        background-size: cover;
+    }
+    .reviews-title-column a {
+        margin-top: 30px;
+    }
+    .footer {
+        background-color: #000;
+    }
+    .footer .company-logo {
+        margin: 50px;
+    }
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+    .dumpster-rental {
+      padding: 50px 0px;
+    }
+    .dumpster-rental .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .dumpster-rental .container {
+      background-color: #2b6819;
+      padding: 70px;
+      border-radius: 5px;
+      width: 70%;
+      color: #fff;
+    }
+    .dumpster-rental a {
+      width: 200px;
+    }
